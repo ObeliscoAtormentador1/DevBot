@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+
+- story: fluxofeliz
+  steps:
+  - intent: cumprimentar
+  - action: utter_cumprimentar
+  - intent: informarProblema
+  - action: utter_informarProblema
+
+
+- story: fluxoerrado
+  steps:
+  - intent: cumprimentar
+  - action: utter_cumprimentar
+  - intent: informarProblema
+  - action: utter_informarProblema
+  - intent: negar
+  - action: utter_negar
+  - intent: informarProblema
+  - action: utter_informarProblema
+

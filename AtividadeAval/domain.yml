@@ -1,0 +1,45 @@
+version: "3.1"
+
+intents:
+  - cumprimentar
+  - despedir
+  - informarProblema
+  - negar 
+  - afirmar
+  - pedirAjuda
+  
+entities: 
+  - problema
+
+slots: 
+  problema:
+    type: text 
+    mappings:
+      - type: from_entity
+        entity: problema
+
+responses:
+  utter_cumprimentar:
+    - text: "Olá, como posso ajudar?"
+
+  utter_despedir:
+    - text: "Até logo, caso ocorram mais problemas entre em contato"
+
+  utter_informarProblema:
+    - text: "Em caso de problema sobre (problema), entre em contato com (setor)"
+
+  utter_negar:
+    - text: "Certo, pode me explicar novamente o problema?"
+
+  utter_afirmar:
+    - text: "Fico feliz em ajudar"
+
+  utter_pedirAjuda:
+    - text: "Me explique o problema que você está tendo"
+
+  utter_iamabot:
+    - text: "Sou um chatbot"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,57 @@
+#Kaio e João Vitor Tamos
+version: "3.1"
+
+nlu:
+- intent: cumprimentar
+  examples: |
+    - Oi
+    - Olá
+    - Bom dia
+    - Boa tarde
+    - Boa noite
+    - E ai?
+    - Tudo bem?
+
+- intent: despedir
+  examples: |
+    - Tchau
+    - Adeus
+    - Até 
+    - Até logo
+    - Até a próxima
+
+- intent: afirmar
+  examples: |
+    - Sim
+    - Ss
+    - Isso
+    - Claro
+    - Certo
+
+- intent: negar
+  examples: |
+    - não
+    - n
+    - nunca
+    - Na verdade não
+    - Não quero
+
+- intent: informarProblema
+  examples: |
+    - Não consigo acessar minha [conta] (problema)
+    - Meu [app] não funciona (problema)
+    - Minha [conta] não abre (problema)
+    - Meu [app] tá bugado (problema)
+    - Quero atualizar meu [plano] (problema)
+    - Mudar de [plano] (problema)
+    - Quero melhorar meu [plano] (problema)
+    - O [aplicativo] não funciona (problema)
+    - Não consigo escutar música pelo [app] (problema)
+
+- intent: pedirAjuda
+  examples: |
+    - Pode me ajudar
+    - Não sei o que fazer
+    - Como funciona?
+    - Me ajuda
+
