@@ -1,0 +1,27 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJxVzDEKgDAMQNGr5ABFdO1VSilVMgQ0lSZ1Kb27EV3ckvxHQh8O+lnxSnlTKuyhv0PifKCHb9lJFNms7EXlQSKNtVi4avEQlmmOlptgtYqspIQGww9GB8T2SD2sTbZc33P60BjxBpmnN0w=": "action_buscar_livro_assunto",
+    "eJy1jjEKwzAMRa+iA4SSrL6KMcYJGgSuXCw5i8ndoxIvgQxduunrPYnv+zFB/1TcY9qUCjvo1xA5vdHBCJlEkc2VXFS+kkhjLQb2Whz45TUHw02wGkVWUkIT/U0MExDbI3WwNtlSvdZxSMdvZR5P/14tnBMZcs8=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohqbQ4ObEIKF1WlB9fkllSmpNfWxsLAJZuIXk=": "utter_pedir_mais_info",
+    "eJyNjEEKwCAMBL/iA/oCv1JKsDaFgE0kRi/i3yu09/a2ww6z9rG4nhUbhGgk7F1/BnC40LsXEhVDnm4tqNMhnmje7bXEoPNuKmBkNcn4KFYzVMh4kMIVqADxKT/L2w14mESQ": "action_listen",
+    "eJwtisEJwDAIAFdxgE6QVUoJNvgQWlPU5BPcvUL7u+NuX7HBepRmxebcpcD6oAreVOCXi81J8h1Gmg9Lqhc4hzXUzFN7RbMh3iOOF7gFIeU=": "utter_pedir_mais_info",
+    "eJyNjEEKgDAMBL/SB/iCfkUkRI0QsGlJUi+lf7egd73tsMPMrU+hFaULcHPOEkN7BggmiuGFk81JhluNdDgsAz2GtdqGOu5LM6BZFc/9I1ndSaHQzgoJ2YDlyH/Tyw0FUEVo": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbW4IDUls6i2NhYAPmwcvg==": "utter_despedir",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbW4IDUls6iWgDGlJSWpRfFw1XjMiQUANbY4Qg==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohuTS3oCgzF8hOLKqtjQUAtm8ehQ==": "utter_cumprimentar",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohuTS3oCgzF8hOLKolYFRpSUlqUTyKDgLmxQIAFyo9lw==": "action_listen",
+    "eJyljjEKwzAMRa/iA4TSrr6KMUY1GgSxHWQpi/HdK0hLSJcO3f5HT08KYy5ubIx7gizUqnfjCKlCQe/eZaUuWI3VjmwMVaviXdayMRXLwPOHSkWQ02XjL9/3a31t0g2qrWAClWbi8Ljd43nGvCSERoWTiov7nH9qz8Cm3LkdwznjCwTxb5I=": "action_buscar_livro_autor",
+    "eJy1jkEKAjEMRa/SAwyi216llFJLFoFpMyTpbMrc3cAogyIoiLuEvP/yw9gmNxaGNeWiSM27sQ+p5Qre3ZcZRaEZ2wXYGGy2qnel14Wx2px5+6DqqsDpKfGT77WazKRiUKMKKXclE4fL6RyPN+ZFRTAqHFSc3OP9tUvJbMqVaT9+WeJN8G+F4g3RCaaT": "action_listen",
+    "eJzFkM0KQiEQRl/FB5Cora8iIiazEPy5jOPdiO/egMWtqG7Qot0Mnjnfh7oPKfqCsFrnKZSsRJ+DzS6BEtclhkqQmW0VkJmQeSUlfEsLhsSzw7GjakSA9uHiJ99ztRoLVYZySWBdo8JifToczRbD3kABmNIbZaS4xZ9b9Q5ZuWKZj1+WeHH430L7vyIFR7dYpvxTs3vuXbfJjGEuz07hEA==": "action_buscar_livro_titulo",
+    "eJzFkM0KwjAMx1+lD1BEr32VUkotORTWdqTpLmXvbqCTTVEnCnpLyO//QXSbpWgjwmSdp5CTEq0PNrkISizLEApBYrYWQGZC4pWU8DWOGCLPDucdq0oEaG8UX/ndVytDpsJQyhGsq5TZWJ8OR7PGsG+gAEzplTJSXOPPtXiHbDlh7sc3SzwQ/rfQ/lek4Og65G7+qtmWe9atM598a1H+vKm5AIqMIRg=": "action_listen",
+    "eJzNkc8KgzAMh1+lD1DGdvVVREqnOQTsH9LUi/juC1TRjW2OedhuCf3yy0daj5NWYyQYjG0Zg6/UWArjrYNKzU2PicELmxOQMOil5Uq12UVCJ7WlaScqMwOZu4lDeY9qqQ+cBPLBgbGZgwTXl9O5WddILjKCUPVKNVot6685tZYkcqBQHj+UeDL4W6H9q2glq3MfSvg7sy33yq0w31xrnvxP08NnXBQ6SBE6lO9rbn0UTOs=": "utter_despedir",
+    "eJzNk00KgzAQha+SA0hpt15FJKQ6i4H8yGTiRrx7B6K1LW2VWmh3M+Sb9x4PUg1joYaOoNemYQy+VEMetDcOSjUtFiODFzZFIGHQy8qlapLrCJ3MhsYVqcQMpO8uduk9Ros2cBTIBwfaJA4iXJ0Ox3qxEV1kBKGqhaoLNdufU2wMiWRPIT9uDPHk8LeB1lsplFgnG7L4u2S33KtsmfmkrenyP5PurnGO0ELsoMWNn+RKf9O4vgB+tnk1": "action_listen",
+    "eJxFjEEKgDAMBL+SB4jotV8ppVTJIaCJNKmX0r8bUPC2wwwb+5igXxXvXHYj4QD9HZnLiQE+OEgN2Vs9xNQjlhNzaSY1QFznJblrik4d2cgIvYp/lSYg9gsLsDXdS/XLu8orx0gP0aEzrA==": "action_buscar_livro_autor",
+    "eJy1jkEKhTAMRK+SA4j4t71KKaVKFgFNpEndFO/+A35w8xdu3M0wb4aJ/Ryg7xWPXBYj4QD9EpnLhgF+ZiU1ZGd1FVOHWDbMpZnUAPEzTsmzpuiuIxsZoVPxptIAxD5hAeamS6k+eVS5wvPZiT/F1w6lL66Eaq0=": "action_listen",
+    "eJxNjEEKwCAMBL+SB5TSXv2KiNiSQ8DGYmIv4t8bsIfedneG9X0s0O+KT0ynUmEHfYbI6UIHX8kkimyu5KJikpK2XGx/anHg93ULRptgNYhsmNA8//fCAsR2ow6OJmeqc47TGSO88Tw2CA==": "action_buscar_livro_titulo",
+    "eJy1jjEKxDAMBL+iB4Qjaf0VY4wTVAh8crDkNCZ/j8AprkiR5jppZyTW93OCvlc8YtqUCjvoY4icvujgXjKJIpsruaiYpKQtF8uPWhz45TMHo02wGkQ2TGie//XCBMT2Rh2sTbZURxyHc75r8nT531rhAtrqb9s=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohqbQ4ObEIKF1WlB+fWFqSX1RbGwsAdLUhAw==": "utter_pedir_mais_info",
+    "eJyNjEEKwCAMBL/iA/oCv1JKSG0KgRolRi/i3yu09/a2ww6z9rG4npUaYDBO4l1/BghG8u6Fi4uRTLcW0umwTDTv9loC6rybJsBqScdHsJqRQqaDFSJyAZYz/QtvN+j6Q6Q=": "action_listen"
+  }
+}

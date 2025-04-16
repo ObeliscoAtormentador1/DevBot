@@ -1,0 +1,13 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"buscar_livro_titulo\"}}]": "utter_pedir_mais_info",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"buscar_livro_titulo\"}}, {\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"utter_pedir_mais_info\"}, \"user\": {\"intent\": \"buscar_livro_titulo\"}}]": "action_listen",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"buscar_livro_assunto\"}}]": "utter_pedir_mais_info",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"buscar_livro_assunto\"}}, {\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"utter_pedir_mais_info\"}, \"user\": {\"intent\": \"buscar_livro_assunto\"}}]": "action_listen",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"buscar_livro_autor\"}}]": "utter_pedir_mais_info",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"buscar_livro_autor\"}}, {\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"utter_pedir_mais_info\"}, \"user\": {\"intent\": \"buscar_livro_autor\"}}]": "action_listen"
+    },
+    "rules_for_loop_unhappy_path": {}
+  }
+}

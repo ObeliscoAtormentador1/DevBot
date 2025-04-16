@@ -1,0 +1,35 @@
+version: "3.1"
+
+nlu:
+- intent: buscar_livro_por_titulo
+  examples: |
+    - qual o livro [Dom Casmurro](titulo)
+    - quero saber sobre [O Pequeno Príncipe](titulo)
+    - você conhece [1984](titulo)?
+    - me mostra [A Metamorfose](titulo)
+    
+- intent: buscar_livro_por_autor
+  examples: |
+    - livros de [Machado de Assis](autor)
+    - buscar algo do [Stephen King](autor)
+    - obras de [George Orwell](autor)
+    - mostra livros do [Franz Kafka](autor)
+    
+
+- intent: saudacao
+  examples: |
+    - oi
+    - olá
+    - bom dia
+    - boa tarde
+    - e aí
+    - tudo bem?
+    
+- intent: despedida
+  examples: |
+    - tchau
+    - até logo
+    - obrigado
+    - valeu
+    - até mais'
+    - adeus
