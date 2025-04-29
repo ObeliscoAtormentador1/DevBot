@@ -15,6 +15,13 @@ nlu:
     - obras de [George Orwell](autor)
     - mostra livros do [Franz Kafka](autor)
     
+- intent: buscar_livro_por_assunto
+  examples: |
+    - livros sobre [fantasia](assunto)
+    - me mostre livros de [ficção científica](assunto)
+    - quero algo sobre [história](assunto)
+    - tem algo de [terror](assunto)?
+    
 
 - intent: saudacao
   examples: |
@@ -31,5 +38,5 @@ nlu:
     - até logo
     - obrigado
     - valeu
-    - até mais'
+    - até mais
     - adeus

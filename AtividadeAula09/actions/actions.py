@@ -17,7 +17,7 @@ class ActionBuscarPorTitulo(Action):
             dispatcher.utter_message(response="Qual é o título que você procura?")
             return []
             
-        url = f"https://openlibrary.org/search.json?author={titulo}"
+        url = f"https://openlibrary.org/search.json?title={titulo}"
         response = requests.get(url)
         data = response.json()
 
@@ -53,4 +53,30 @@ class ActionBuscarPorAutor(Action):
             dispatcher.utter_message(text="Aqui estão alguns livros do autor:\n" + "\n".join(mensagens))
         else:
             dispatcher.utter_message(response="utter_error_busca")
+        return []
+    
+class ActionBuscarPorAssunto(Action):
+    def name(self) -> Text:
+        return "action_buscar_por_assunto"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict) -> List[Dict]:
+
+        assunto = next(tracker.get_latest_entity_values("assunto"), None)
+
+        if not assunto:
+            dispatcher.utter_message(response="utter_perguntar_assunto")
+            return []
+
+        url = f"https://openlibrary.org/search.json?subject={assunto}"
+        response = requests.get(url)
+        data = response.json()
+
+        if data["numFound"] > 0:
+            livros = data["docs"][:3]
+            mensagens = [f"- {livro.get('title')} por {', '.join(livro.get('author_name', ['Autor desconhecido']))}" for livro in livros]
+            dispatcher.utter_message(text="Aqui estão alguns livros sobre o assunto:\n" + "\n".join(mensagens))
+        else:
+            dispatcher.utter_message(text="Não encontrei livros com esse assunto.")
         return []

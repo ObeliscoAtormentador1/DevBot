@@ -10,3 +10,8 @@ rules:
   steps:
   - intent: despedida
   - action: utter_despedida
+
+- rule: Buscar por assunto
+  steps:
+  - intent: buscar_livro_por_assunto
+  - action: action_buscar_por_assunto

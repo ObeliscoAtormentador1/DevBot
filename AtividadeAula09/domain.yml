@@ -3,12 +3,14 @@ version: "3.1"
 intents:
   - buscar_livro_por_titulo
   - buscar_livro_por_autor
+  - buscar_livro_por_assunto
   - saudacao
   - despedida
 
 entities:
   - titulo
   - autor
+  - assunto
 
 slots:
   titulo:
@@ -23,6 +25,13 @@ slots:
     - type: from_entity
       entity: autor
 
+  assunto:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: assunto
+
+
 responses:
   utter_saudacao:
     - text: "Olá! Como posso te ajudar a encontrar livros hoje?"
@@ -32,12 +41,16 @@ responses:
     - text: "Até logo! Volte sempre para buscar mais livros!"
     - text: "Adeus! Bons livros para você!"
 
-utter_perguntar_titulo:
+  utter_perguntar_titulo:
     - text: "Qual é o título do livro que você procura?"
 
-utter_perguntar_autor:
+  utter_perguntar_autor:
     - text: "Qual autor que você quer pesquisar?"
+
+  utter_perguntar_assunto:
+    - text: "Qual assunto você gostaria de pesquisar?"
 
 actions:
   - action_buscar_por_titulo
   - action_buscar_por_autor
+  - action_buscar_por_assunto
