@@ -1,0 +1,57 @@
+version: "3.1"
+
+intents:
+  - cumprimentar
+  - despedir
+  - agradecer
+  - pedir_ajuda
+  - mudar_plano
+  - problema_acesso
+  - problema_tecnico
+  - informar_problema
+  - negar
+  - confirmar
+  - falar_com_humano
+
+entities:
+  - problema
+
+slots:
+  problema:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: problema
+    influence_conversation: true
+
+responses:
+  utter_cumprimentar:
+    - text: "Olá! Como posso ajudar?"
+
+  utter_despedir:
+    - text: "Até logo! Volte sempre que precisar."
+
+  utter_agradecer:
+    - text: "Fico feliz em ajudar!"
+
+  utter_oferecer_ajuda:
+    - text: "Posso ajudar com: 1) Acesso 2) Planos 3) Problemas técnicos. Qual você precisa?"
+
+  utter_resposta_mudar_plano:
+    - text: "Para mudar de plano: Acesse Configurações > 'Seu Plano' > Escolha o novo plano."
+
+  utter_resposta_acesso:
+    - text: "Para problemas de acesso: Tente recuperar a senha, verifique o e-mail, ou limpe o cache do app."
+
+  utter_resposta_tecnico:
+    - text: "Para problemas técnicos: Reinicie o app, atualize o aplicativo ou verifique sua internet."
+
+  utter_encaminhar_humano:
+    - text: "Vou transferir você para um atendente humano."
+
+  utter_nao_entendi:
+    - text: "Desculpe, não entendi. Você precisa de ajuda com: 1) Acesso 2) Planos 3) Problemas técnicos?"
+
+actions:
+  - action_determinar_ajuda
+  - action_default_fallback

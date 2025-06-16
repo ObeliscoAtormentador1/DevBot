@@ -1,0 +1,81 @@
+version: "3.1"
+nlu:
+
+- intent: cumprimentar
+  examples: |
+    - oi
+    - olá
+    - bom dia
+    - boa tarde
+    - e aí
+    - tudo bem?
+
+- intent: despedir
+  examples: |
+    - tchau
+    - até mais
+    - até logo
+    - valeu
+    - falou
+
+- intent: agradecer
+  examples: |
+    - obrigado
+    - valeu
+    - muito obrigado
+    - agradeço
+    - show!
+
+- intent: pedir_ajuda
+  examples: |
+    - preciso de ajuda
+    - me ajuda?
+    - pode me ajudar?
+    - quero suporte
+
+- intent: mudar_plano
+  examples: |
+    - quero mudar de plano
+    - como troco de plano?
+    - plano diferente
+    - mudar assinatura
+
+- intent: problema_acesso
+  examples: |
+    - não consigo acessar
+    - estou com problema para entrar
+    - não lembro minha senha
+    - deu erro no login
+
+- intent: problema_tecnico
+  examples: |
+    - o app está travando
+    - estou com erro no aplicativo
+    - bug no sistema
+    - algo não funciona
+
+- intent: informar_problema
+  examples: |
+    - o problema é que o app fecha sozinho
+    - meu problema é que não abre
+    - estou enfrentando [erro 500](problema)
+    - aparece [falha de autenticação](problema)
+
+- intent: negar
+  examples: |
+    - não
+    - negativo
+    - de jeito nenhum
+
+- intent: confirmar
+  examples: |
+    - sim
+    - claro
+    - com certeza
+    - pode ser
+
+- intent: falar_com_humano
+  examples: |
+    - quero falar com atendente
+    - me passa um humano
+    - preciso de ajuda humana

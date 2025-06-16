@@ -1,0 +1,42 @@
+version: "3.1"
+rules:
+
+- rule: Responder a cumprimentos
+  steps:
+    - intent: cumprimentar
+    - action: utter_cumprimentar
+
+- rule: Responder a despedidas
+  steps:
+    - intent: despedir
+    - action: utter_despedir
+
+- rule: Responder agradecimento
+  steps:
+    - intent: agradecer
+    - action: utter_agradecer
+
+- rule: Encaminhar para humano
+  steps:
+    - intent: falar_com_humano
+    - action: utter_encaminhar_humano
+
+- rule: Ajudar com planos
+  steps:
+    - intent: mudar_plano
+    - action: utter_resposta_mudar_plano
+
+- rule: Ajudar com acesso
+  steps:
+    - intent: problema_acesso
+    - action: utter_resposta_acesso
+
+- rule: Ajudar com problema técnico
+  steps:
+    - intent: problema_tecnico
+    - action: utter_resposta_tecnico
+
+- rule: Ajuda geral
+  steps:
+    - intent: pedir_ajuda
+    - action: utter_oferecer_ajuda

@@ -1,0 +1,24 @@
+version: "3.1"
+stories:
+
+- story: fluxo de mudança de plano
+  steps:
+    - intent: cumprimentar
+    - action: utter_cumprimentar
+    - intent: mudar_plano
+    - action: utter_resposta_mudar_plano
+
+- story: fluxo com problema técnico
+  steps:
+    - intent: problema_tecnico
+    - action: utter_resposta_tecnico
+
+- story: usuário quer falar com humano
+  steps:
+    - intent: falar_com_humano
+    - action: utter_encaminhar_humano
+
+- story: problema informado com entidade
+  steps:
+    - intent: informar_problema
+    - action: action_determinar_ajuda
